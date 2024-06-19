@@ -1,28 +1,31 @@
-# Log Nums
+### Log Nums Tests HTML
 
-In this activity, you will write code to create a function that prints all whole numbers from 1 to a given number.
+This HTML file sets up a testing environment for functions in `log-nums.js` using Mocha and Chai.
 
-## Instructions
+- **Meta Tags:** Define character encoding, viewport settings, and compatibility with IE.
+- **Title:** Sets the document title to "Log Nums".
+- **Styles and Scripts:**
+  - **Mocha CSS:** Styles the test results output.
+  - **Mocha JS:** Loads the Mocha testing framework.
+  - **Chai JS:** Loads the Chai assertion library.
+- **Body:**
+  - **Mocha Div:** Container for displaying test results.
+  - **Mocha Setup:** Configures Mocha to use the BDD interface.
+  - **Script Loading:**
+    - `log-nums.js`: Contains the functions to be tested.
+    - `log-nums.test.js`: Contains the tests for the functions in `log-nums.js`.
+  - **Mocha Run:** Executes the Mocha tests.
 
-* Open [Unsolved/log-nums.js](Unsolved/log-nums.js) in your code editor; this is the only file you will modify in this activity.
+This setup ensures a comprehensive and functional test environment for the `log-nums` functions.
 
-  * In this file, you will write code in the body of the `logNums` function to achieve the following:
+### logNums Function
 
-    * Print all numbers from `1` up to the given `nums` argument inclusive. For example, given the number `5` as the `num` argument, the following should be printed to the console, one log at a time:
+This JavaScript function logs numbers from 1 to a specified number:
 
-      ```bash
-      1
-      2
-      3
-      4
-      5
-      ```
+- **logNums(num):**
+  - Takes a single argument `num`.
+  - Uses a for loop to iterate from 1 to `num`.
+  - Logs each number to the console.
 
-* You can check whether your function works properly by opening [Unsolved/test.html](Unsolved/test.html) in your web browser.
+This function provides a simple way to output a sequence of numbers to the console.
 
-  * Functions that pass the tests will be denoted with a green check mark.
-
-  * Functions that fail the tests will be denoted with a red X and an error message.
-
----
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
